@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: #1f2937;
+  color: #ffffff;
+}
+
+.header__logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.header__link {
+  color: #93c5fd;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.header__link:hover {
+  text-decoration: underline;
+}
