@@ -1,0 +1,46 @@
+.post {
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  padding: 1rem 1.25rem;
+  margin-bottom: 1rem;
+  transition: background-color 0.2s ease;
+}
+
+.post__meta {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.post__title {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.post__badge {
+  background-color: #ef4444;
+  color: #ffffff;
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  text-transform: uppercase;
+}
+
+.post__author {
+  margin: 0.25rem 0;
+  color: #4b5563;
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.post__preview {
+  margin: 0.25rem 0;
+  color: #111827;
+}
+
+.post__date {
+  margin: 0.25rem 0 0;
+  color: #9ca3af;
+  font-size: 0.8rem;
+}
